@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <title>Animacioon cubo</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      canvas {
+        width: 100%;
+        height: 100%;
+      }
+      #mensaje {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #ff0000;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="mensaje">Numero 1= Grilla (Presionar 2 veces para ver todo el proceso)/n 
+                      Numero 2= cubo 1 (Presionar 5 veces para ver todo el proceso)
+                      Numero 3= cubo 2 (Presionar 6 veces para ver todo el proceso)
+                      Numero 4= cubo 3 (Presionar 6 veces para ver todo el proceso)</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/102/three.js"></script>
+    <script src="three.min.js"></script>
+    <script src="OrbitControls.js"></script>
+    <script src="cube.js"></script>
+  </body>
+</html>
